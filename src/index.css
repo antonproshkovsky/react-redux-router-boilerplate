@@ -1,0 +1,45 @@
+body{
+    font-family: "Consolas";
+    background-color: #e2e2e2;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.login-page{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+}
+
+.login-form__item{
+    display: block;
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    font-size: 12px;
+}
+
+input{
+    padding-left: 8px;
+    margin-top: 8px;
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+button{
+    padding: 10px 50px;
+}
